@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+#parent_container
+{
+width:100%;
+background-color:#FFFFFF;
+}
+#header_section
+{
+background-color:#7BD454;	
+}
+#header_menu
+{
+
+}
+#body_section
+{
+background-color:#F9FAF7;
+}
+#footer_section
+{
+background-color:#7BD454;
+}
