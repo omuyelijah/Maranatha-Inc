@@ -1,43 +1,43 @@
-<style>
-    a:link,
-    a:visited
-    {
-        color: #0398CA;
-    }
-
-    span#zf-name
-    {
-        color: #91BE3F;
-    }
-
-    div#welcome
-    {
-        color: #FFFFFF;
-        background-image: url(http://framework.zend.com/images/bkg_header.jpg);
-        width:  600px;
-        height: 400px;
-        border: 2px solid #444444;
-        overflow: hidden;
-        text-align: center;
-    }
-
-    div#more-information
-    {
-        background-image: url(http://framework.zend.com/images/bkg_body-bottom.gif);
-        height: 100%;
-    }
-</style>
-<div id="welcome">
-    <h1>Welcome to the <span id="zf-name">Zend Framework!</span></h1>
-
-    <h3>This is your project's main page</h3>
-
-    <div id="more-information">
-        <p><img src="http://framework.zend.com/images/PoweredBy_ZF_4LightBG.png" /></p>
-        <p>
-            Helpful Links: <br />
-            <a href="http://framework.zend.com/">Zend Framework Website</a> |
-            <a href="http://framework.zend.com/manual/en/">Zend Framework Manual</a>
-        </p>
+<!-- holds the home page banner -->
+   <div id="main_banner" class="jumbotron">
+        <h1>Some introductory statement</h1>
+        <h3>something more interesting</h3>
+        <!-- login and sign up buttons  -->
+        <div id="home_buttons" class="col-md-5 col-md-offset-5">
+            <button id="login_button" class="btn btn-primary">Log in</button>
+            <button id="sign-up_button" class="btn btn-success">Sign up</button>
+         </div>
     </div>
-</div>
+    <!-- some of the services offered -->
+    <div id="services_section">
+    	<div class="container">
+        	<div class="row">
+            	<!-- service 1 -->
+                <div id="service" class="col-md-4">
+                    <h4 id="service_header">Study</h4>
+                    <p>
+						Get access to guidance and opportunities to help you achieve your dream career.<br>
+						<a href="study.html">learn more</a>
+					</p>
+                </div>
+                <!-- service 2 -->
+                <div id="service" class="col-md-4">
+                    <h4 id="service_header">Internship and Training</h4>
+                    <p>
+						Opportunities for you to gain experience and get access to new skills.<br>
+						<a href="jobs.html">learn more</a>
+					</p>
+                </div>
+                <!-- service 3 -->
+                <div id="service" class="col-md-4">
+                    <h4 id="service_header">Research</h4>
+                    <p>
+						Create awareness and opportunities for you to come up with innovative solutions to current challenges; 
+						bridging the gap between theory and practical.
+						<a href="research.html">learn more</a>
+					</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of services offered -->

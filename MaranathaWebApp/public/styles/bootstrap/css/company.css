@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+#search_box
+{
+margin:5px 5px;
+
+}
+/**/
+#newsfeed_container
+{
+height:555px;/*height given here is just for illustration purposes */ 
+background-color:white;
+box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+margin-bottom:30px;	
+}
+#updates_container
+{
+height:400px;/*height given here is just for illustration purposes */ 
+background-color:white;/*colour given here is just for illustration purposes */
+box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2); 
+margin-bottom:30px;
+margin-left:4px;
+}

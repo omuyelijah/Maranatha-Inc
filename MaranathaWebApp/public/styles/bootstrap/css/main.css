@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+#parent_container
+{
+width:100%;
+background-color:#FFFFFF;
+}
+#header_section
+{
+background-color:#7BD454;	
+}
+#header_menu ul li a
+{
+color:#222;
+}
+#body_section
+{
+background-color:#F9FAF7;
+}
+#footer_section
+{
+background-color:#7BD454;
+clear:both;
+}
+#footer_navigation ul li a
+{
+color:#222;
+}

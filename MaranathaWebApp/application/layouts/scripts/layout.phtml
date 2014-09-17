@@ -1,0 +1,32 @@
+<?php echo $this->doctype(); ?>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<?php echo $this->headLink(); ?>
+		<?php echo $this->headScript(); ?>
+		<?php echo $this->headTitle(); ?>				
+	</head>
+	<body>
+	
+		<!-- the main parent container -->
+        <div id="parent_container" class="container-fluid">
+			
+				<!-- The header with title, background-image and Login/sign-up --> 
+				<div id="header_section" class="row">								
+					<?php echo $this->layout()->header; ?>
+				</div>
+				
+				<div class="row" id="body_section">	
+					<?php echo $this->layout()->content; ?>
+				</div>
+				
+				<!-- Footer -->
+				<div id="footer_section" class="row">								
+					<?php echo $this->layout()->footer; ?>
+				</div>
+				
+		</div>
+		
+	</body>
+</html>
+

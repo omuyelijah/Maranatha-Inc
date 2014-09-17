@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+#search_box
+{
+margin:5px 5px;
+
+}
+/**/
+#profile_container
+{
+/*height:555px;/*height given here is just for illustration purposes */ 
+/*background-color:white;*/
+box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+margin-bottom:30px;	
+}
+
+/*styles for profile summary section of the profile page*/
+#profile_summary
+{
+background-color:white;
+box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+margin-bottom:20px;
+}
+/*styling for the profile picture holder*/
+#picture_holder
+{
+margin-bottom:15px;
+}
+#profile_overview
+{
+float:left;
+}
+#name
+{
+/* styling for user`s name in the profile summary */
+margin: 25px 0px 15px 0px;
+font-size: 30px;
+line-height: 17px;
+}
+#country
+{
+/* styling for user`s country in the profile summary */
+margin: 0px 0px 5px 0px;
+font-size: 15px;
+line-height: 17px;
+}
+#country a
+{
+color:#222;
+}
+#school
+{
+/* styling for user`s current school in the profile summary */
+margin: 0px 0px 5px 0px;
+font-size: 15px;
+line-height: 17px;
+}
+#speciality
+{
+/* styling for user`s speciality in the profile summary */
+margin: 0px 0px 5px 0px;
+font-size: 15px;
+line-height: 17px;
+}
+#profile_subheading
+{
+/* styling for the profile subsection headings */
+margin: 0px 0px 0px 0px;
+background: none repeat scroll 0% 0% #333;
+color: #FFF;
+font-size: 15px;
+line-height: 17px;
+font-weight: bold;
+padding: 2.5px 10px;
+    padding-top: 2.5px;
+    padding-right-value: 10px;
+    padding-bottom: 2.5px;
+    padding-left-value: 10px;
+    padding-left-ltr-source: physical;
+    padding-left-rtl-source: physical;
+    padding-right-ltr-source: physical;
+    padding-right-rtl-source: physical;
+display: inline-block;
+vertical-align: top;
+}
+.profile_subsection
+{
+/* styling for the profile subsection content holder*/
+padding-top:0px;
+background-color:white;
+box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+margin-bottom:10px;
+display:block;
+}
+#entry
+{
+/* styling for a single entry */
+margin: 3px 5px 2px 5px;
+}
+#institution
+{
+/* styling for the institution attended or worked for */
+margin: 5px 0px 0px 0px;
+font-size: 20px;
+line-height: 17px;
+color:#3F3D3D;
+}
+#degree
+{
+/* styling for degree earned */
+margin: 5px 0px 0px 0px;
+font-size: 15px;
+line-height: 17px;
+color:#3F3D3D;
+}
+#study_period
+{
+margin: 5px 0px 0px 0px;
+font-size: 13px;
+line-height: 17px;
+color:#6F7C6A;
+}
+#position_held
+{
+margin: 5px 0px 0px 0px;
+font-size: 15px;
+line-height: 17px;
+color:#3F3D3D;
+}
+#work_period
+{
+margin: 5px 0px 0px 0px;
+font-size: 13px;
+line-height: 17px;
+color:#6F7C6A;
+}
+
+#updates_container
+{
+height:400px;/*height given here is just for illustration purposes */ 
+background-color:white;
+box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+margin-bottom:30px;
+margin-left:4px;
+}
