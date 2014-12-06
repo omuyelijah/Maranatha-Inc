@@ -14,6 +14,12 @@ set_include_path(implode(PATH_SEPARATOR, array(
     get_include_path(),
 )));
 
+/** Auto load Zend library inside application **/
+set_include_path(implode(PATH_SEPARATOR, array(
+    realpath(APPLICATION_PATH . '/../vendor/zendframework/zendframework/library'),
+    get_include_path(),
+)));
+
 /** Zend_Application */
 require_once 'Zend/Application.php';
 
