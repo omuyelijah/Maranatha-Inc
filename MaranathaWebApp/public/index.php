@@ -20,7 +20,7 @@ set_include_path(implode(PATH_SEPARATOR, array(
     get_include_path(),
 )));
 
-echo 55;
+
 
 /** Zend_Application */
 require_once 'Zend/Application.php';
