@@ -10,7 +10,7 @@ class Us_PrivacyPolicyController extends Maranatha_Controller_BaseController
 
     public function indexAction()
     {
-        
+        $this->view->headLink()->prependStylesheet("{$this->settingsMapper->getDeploymentFolder()}styles/privacy_policy.css");
     }
 
 
